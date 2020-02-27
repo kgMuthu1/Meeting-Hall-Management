@@ -1,0 +1,10 @@
+1.Login Table:
+       create table login(username varchar2(50),password varchar2(20) primarykey);
+
+2.user registration:
+       create table user_registration(user_id number primarykey,username varchar2(100),password varchar2(50),company_name archar2(100),
+contact_no number,email_id varchar2(100),address varchar2(100),active_status cahr(1) default'Y',creation_date date default_sysdate);
+
+3.Hall_details:
+      
+      create table Booking_request(Hall_no number,no_of_persons number,company_name varchar2(100),no_of_days number,tatal_cost number);
